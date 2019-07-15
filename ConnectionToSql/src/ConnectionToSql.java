@@ -12,7 +12,6 @@ public class ConnectionToSql {
 		System.out.println(rs.getInt(1)+"  "+rs.getInt(2));  
 		con.close();  
 		}catch(Exception e){ System.out.println(e);}  
-		System.out.println("Hello");
 		System.out.println("The Above is Connection to SQL code");
 	}
 
