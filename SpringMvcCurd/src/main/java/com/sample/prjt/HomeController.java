@@ -48,7 +48,8 @@ public class HomeController {
 	       
 	    @RequestMapping(value="/editsave",method = RequestMethod.POST)    
 	    public String editsave(@ModelAttribute("emp") Emp emp){    
-	        //dao.update(emp);    
+	        //dao.update(emp);  
+		    System.out.println("Hello");
 	        return "redirect:/viewemp";    
 	    }    
 	        
